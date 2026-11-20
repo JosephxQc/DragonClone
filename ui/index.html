@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DragonClone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="app.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app">
+    <aside class="side">
+      <div class="brand">
+        <img src="favicon.svg" alt="" width="28" height="28">
+        <span>DragonClone</span>
+      </div>
+      <nav id="nav" aria-label="Main"></nav>
+      <div class="side-foot">
+        <button class="ghost small" data-act="theme" id="themeBtn" title="Switch between light and dark">Theme</button>
+        <button class="ghost small" data-act="about">About</button>
+      </div>
+    </aside>
+    <main id="main" tabindex="-1"></main>
+  </div>
+  <div id="modal" class="modal-root" hidden></div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+</body>
+</html>

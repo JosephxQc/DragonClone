@@ -1,0 +1,9 @@
+# build output
+*.exe
+/dist/
+# local test data
+*.img
+*.img.gz
+*.vhd
+*.iso
+*.o
