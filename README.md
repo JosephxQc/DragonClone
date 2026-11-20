@@ -128,7 +128,7 @@ On Linux, run `go run .` as root to use the whole app with loop devices.
 
 ## Status
 
-DragonClone is young. The engine is covered by the tests above, and has been run end to end against real block devices on Linux. Try it on spare drives before trusting it with anything important, and keep a second backup of data you care about. Please report bugs in [Issues](../../issues), and attach the log (History → Open the log).
+The engine is covered by the tests above, and has been run end to end against real block devices on Linux. Try it on spare drives before trusting it with anything important, and keep a second backup of data you care about. Please report bugs in [Issues](../../issues), and attach the log (History → Open the log).
 
 ## License
 
